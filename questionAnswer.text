@@ -1,0 +1,13 @@
+Section B - 
+
+Question 1 - Explain the request-response cycle in a MERN application. Include React frontend request, Express middleware, Node server handling, and MongoDB query process.
+
+Answer: from reactjs which is frontend of the website we sent request by calling an API 
+when server receive request we use middleware to verify users authenticity and authorization and according to that server run database query and send response to frontend.
+
+//--Request-Response cycle
+Frontend/userend -> sent request -> server receive request -> middleware check authenticity and authorization (if success)-> database access -> response sent back to frontend userend.
+
+Question 2 - How does reactjs reconcilliation process improve performance? illustrate with an example of component re-rendering.
+
+Answer: react do not change dom directly. it update virtual dom first and check if everything is good than change dom. in react we can create reusable component which helps to improve performance.
